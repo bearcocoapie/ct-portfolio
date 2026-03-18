@@ -52,4 +52,6 @@ h1 {
 
 .item {
     background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
 }
