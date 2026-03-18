@@ -1,3 +1,55 @@
 body {
-    background: paleturquoise
+    background: paleturquoise;
+    font-family: "Space Grotesk", Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #000000;
+}
+
+.page-layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.links {
+    text-decoration: none;
+}
+
+header,
+footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+
+}
+
+
+.container {
+    max-width: 700px;
+    margin: 10px;
+    padding: 0 20px;
+    margin-: 10px;
+}
+
+h1 {
+    font-family: "Bungee", sans-serif;
+    font-size: 4rem;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.social-logo {
+    width: 30px;
+    height: 30px;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.item {
+    background-color: antiquewhite;
 }
