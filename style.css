@@ -24,6 +24,9 @@ footer {
     justify-content: space-between;
     font-size: 18px;
     background-size: 2000px;
+    padding: 0;
+    align-items: center;
+    width: 100%;
 
 }
 
@@ -31,9 +34,10 @@ footer {
 .container {
     max-width: 700px;
     padding: 0 20px;
-    margin: 0px;
+    margin: 10px;
     background-color: whitesmoke;
     background-size: cover;
+    border-radius: 10px;
 }
 
 h1 {
@@ -67,6 +71,7 @@ h1 {
     text-decoration: none;
     border-radius: 10px;
     align-items: center;
+    margin: 10px;
 }
 
 .container0 {
@@ -80,7 +85,9 @@ h1 {
 
 }
 
-.h2 {
-    font-family: "Bungee", sans-serif;
-    font-size: 2rem;
+.questions {
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+
 }
