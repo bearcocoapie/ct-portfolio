@@ -27,8 +27,9 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    height: 50px;
     text-align: center;
+    border: 2px solid #000;
 
 
 }
@@ -41,9 +42,13 @@ footer {
     background-color: #fec5bb;
     background-size: all;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     text-align: center;
     position: relative;
+    border: 2px solid #000;
 }
 
 h1 {
@@ -68,17 +73,20 @@ h1 {
 
 .item0 {
     background-color: #e8e8e4;
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     border-radius: 10px;
+    border: 2px solid #000;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    text-align: center;
     margin: 10px;
     color: black;
     padding: 20px;
     /* Add a smooth transition for the color change */
     transition: background-color 0.4s, color 0.4s;
     gap: 20px;
-    justify-content: center;
     font-size: large;
 }
 
@@ -127,6 +135,25 @@ a {
     max-width: 1000px;
     height: 500px;
     padding: 0 20px;
-    margin: 10px;
+    margin: 10px auto;
     background-color: #fec5bb;
+    text-align: center;
+}
+
+.box0 {
+    max-width: 1000px;
+    height: 200px;
+    padding: 0 20px;
+    margin: 10px auto;
+    background-color: #fec5bb;
+    text-align: center;
+    border: 2px solid #000;
+}
+
+h2 {
+    font-family: "Bungee", sans-serif;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-align: center;
 }
