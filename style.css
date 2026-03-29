@@ -36,9 +36,9 @@ footer {
 
 
 .container {
-    height: 500px;
-    padding: 0 20px;
-    margin: 10px;
+    min-height: 500px;
+    padding: 40px 20px;
+    margin: 20px;
     background-color: #fec5bb;
     background-size: all;
     border-radius: 10px;
@@ -123,31 +123,27 @@ h1 {
     margin: 10px;
     border-radius: 10px;
     max-width: 700px;
-
-
+    border: 2px solid #000;
 }
+
+
+
 
 a {
     text-decoration: none;
 }
 
-.box {
-    max-width: 1000px;
-    height: 500px;
-    padding: 0 20px;
-    margin: 10px auto;
-    background-color: #fec5bb;
-    text-align: center;
-}
+
 
 .box0 {
     max-width: 1000px;
-    height: 200px;
-    padding: 0 20px;
-    margin: 10px auto;
+    min-height: 700px;
+    padding: 40px 20px;
+    margin: 20px auto;
     background-color: #fec5bb;
     text-align: center;
     border: 2px solid #000;
+    border-radius: 10px;
 }
 
 h2 {
